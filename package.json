@@ -1,0 +1,21 @@
+{
+  "name": "chuck-norris-facts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauliusss/chuck-norris-facts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauliusss/chuck-norris-facts/issues"
+  },
+  "homepage": "https://github.com/sauliusss/chuck-norris-facts#readme"
+}
