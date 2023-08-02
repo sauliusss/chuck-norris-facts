@@ -3,7 +3,7 @@ img {
   position: fixed;
   top: 9.8%;
   left: 50%;
-  transform: translate(-50%, -23%);
+  transform: translate(-50%, -23.8%);
 }
 
 .card-container {
@@ -15,6 +15,8 @@ img {
 
 .card {
   text-align: center;
-  border: 1px solid #000;
+  border: 3px solid #000;
   padding: 50px;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
 }
