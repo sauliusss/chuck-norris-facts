@@ -1,0 +1,20 @@
+img {
+  height: 21em;
+  position: fixed;
+  top: 9.8%;
+  left: 50%;
+  transform: translate(-50%, -23%);
+}
+
+.card-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 50px;
+}
