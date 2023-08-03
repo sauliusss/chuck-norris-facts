@@ -5,7 +5,12 @@ async function getUrl() {
   const data = await response.json();
   console.log(data.value);
   const fact = document.querySelector("#fact");
-  const newFact = document.createElement("div");
-  newFact.innerText = data.value;
-  fact.append(newFact);
+  // const newFact = document.createElement("div");
+  fact.textContent = `${data.value}`;
+  // fact.append(newFact);
 }
+
+// button
+
+const button = document.querySelector("#button");
+button.addEventListener("click", getUrl);
